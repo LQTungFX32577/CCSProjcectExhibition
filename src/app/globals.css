@@ -3,6 +3,26 @@
   --foreground: #171717;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  height: 1000px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  left: 900px;
+}
+.banner {
+  color: white;
+  text-align: center;
+  height: 300px;
+  background-image: url("https://img.freepik.com/premium-photo/space-scene-galaxy-panorama-univer-digital-illustration-painting-artwork_743855-2706.jpg");
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

@@ -1,7 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./globals.css";
 
 export default function Home() {
     return (
-      <h1 className="text-center">Home</h1>
+      <div className="banner">
+          <h1>Home</h1>
+      </div>
     )
 }
